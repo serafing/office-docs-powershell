@@ -2085,8 +2085,6 @@ Accept wildcard characters: False
 ```
 
 ### -PublicFolderShowClientControl
-This parameter is available only in the cloud-based service.
-
 The PublicFolderShowClientControl parameter enables or disables access to public folders in Microsoft Outlook. Valid values are:
 
 - $true: Users can access public folders in Outlook if the PublicFolderClientAccess parameter on the Set-CASMailbox cmdlet is set to the value $true (the default value is $false).
@@ -2097,7 +2095,7 @@ The PublicFolderShowClientControl parameter enables or disables access to public
 Type: $true | $false
 Parameter Sets: Default
 Aliases:
-Applicable: Exchange Online
+Applicable: 	Exchange Server 2016, Exchange Server 2019, Exchange Online
 Required: False
 Position: Named
 Default value: $false
